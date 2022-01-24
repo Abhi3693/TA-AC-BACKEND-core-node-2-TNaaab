@@ -11,9 +11,17 @@ You are currently inside server.js
 
 Write code to 
 - capture absolute path of `server.js`(itself)
+/Users/abhi/desktop/server.js
+
 - get absolute path of `app.js`
+__dirname/app.js
+
 - get realtive path of `index.html`
+./index.html
+
 - get absolute path of `index.html` using `path module` 
+let absolutePath = __dirname + index.html;
+
  
 #### Capture data on server
 
