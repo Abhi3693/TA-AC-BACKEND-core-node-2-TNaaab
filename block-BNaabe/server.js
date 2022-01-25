@@ -1,10 +1,12 @@
+let path = require("path")
+
 var absolutePath = __filename;
 
 absolutePath = __dirname + "/node/app.js";
 
 absolutePath = "./node/index.html";
 
-absolutePath = __dirname + "/node/index.html"
+absolutePath = path.join(__dirname , "index.html")
 
 
 let http = require("http");
